@@ -155,7 +155,9 @@ body {
 
 .active__nav nav {
     padding: 20px 0;
+    border-bottom: 1px solid transparent;
 }
+
 
 /* =============== Grid =============== */
 .container {
@@ -171,7 +173,7 @@ body {
 }
 
 .section {
-    margin-top: 100px;
+    padding: 100px 0;
 }
 
 .btn {
@@ -418,6 +420,28 @@ body {
 }
 
 
+/* =============== download =============== */
+
+.download__container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download__data h3 {
+    font-size: 1.75rem;
+    color: var(--clr-title);
+    font-weight: 300;
+}
+
+.download__data h4 {
+    font-weight: 700;
+    color: var(--clr-title);
+    margin: 10px 0 30px 0;
+}
+
+
 @media screen and (max-width: 1024px) {
     .show {
         visibility: visible !important;
@@ -427,6 +451,8 @@ body {
         -webkit-transition: opacity 0.5s;
         transition: opacity 0.5s;
     }
+
+
 
     .nav__toggle {
         display: block;
