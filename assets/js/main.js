@@ -40,6 +40,9 @@ const swiper = new Swiper(".testimonial__container", {
         el: ".swiper-pagination",
         clickable: !0
     },
+    autoplay: {
+        delay: 5000,
+    },
     breakpoints: {
         640: {
             slidesPerView: 1,

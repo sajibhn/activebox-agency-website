@@ -360,8 +360,13 @@ body {
     margin-right: 5px;
     text-align: center;
     width: 40px;
+    transition: all .3s ease;
 }
 
+.team__social .social__link:hover {
+    background-color: var(--clr-red);
+    color: hsl(0, 0%, 100%);
+}
 
 /* =============== Testimonial =============== */
 
@@ -440,6 +445,77 @@ body {
     color: var(--clr-title);
     margin: 10px 0 30px 0;
 }
+
+.footer {
+    background-color: var(--clr-blue);
+}
+
+.footer__container {
+    padding: var(--p-8) 0 var(--p-10) 0;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__data {
+    text-align: center;
+}
+
+.footer__data h3 {
+    font-size: var(--fs-body-text);
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    margin-bottom: var(--m-2);
+}
+
+.footer__data p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__social ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer__social ul .footer__social__link {
+    color: #fff;
+    border: 2px solid #e8ecee;
+    border-radius: 2px;
+    display: block;
+    font-size: 22px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    transition: all .3s ease;
+}
+
+.footer__social ul .footer__social__link:hover {
+    border: 2px solid var(--clr-red);
+    background-color: var(--clr-red);
+    color: hsl(0, 0%, 100%);
+}
+
+.footer .copy {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: var(--clr-blue-alt);
+    text-align: center;
+    padding: var(--p-3) 0;
+}
+
+.footer .copy i {
+    color: var(--clr-red);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1024px) {
