@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Active box || Web Development Agency</title>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
     <script src="assets/js/main.js" defer></script>
 </head>
 
@@ -21,11 +23,11 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">features</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">work</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">our team</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">testimonials</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">download</a></li>
+                    <li class="nav__item"><a href="#service" class="nav__link">features</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">work</a></li>
+                    <li class="nav__item"><a href="#team" class="nav__link">our team</a></li>
+                    <li class="nav__item"><a href="#testimonial" class="nav__link">testimonials</a></li>
+                    <li class="nav__item"><a href="#download" class="nav__link">download</a></li>
                 </ul>
             </div>
 
@@ -307,6 +309,44 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- =============== Testimonial ===============-->
+        <section class="section testimonial" id="testimonial">
+            <div class="testimonial__container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__data grid swiper-slide">
+                        <div class="testimonial__img">
+                            <img src="assets/img/testimonial-1.jpg" alt="">
+                        </div>
+                        <div class="testimonial__body">
+                            <blockquote>
+                                <p>"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio
+                                    dui.
+                                    Aenean eu leo quam..."
+                                </p>
+                            </blockquote>
+                            <h4 class="author">SUSAN SIMS, INTERACTION DESIGNER AT XYZ </h4>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__data grid swiper-slide">
+                        <div class="testimonial__img">
+                            <img src="assets/img/testimonial-2.jpg" alt="">
+                        </div>
+                        <div class="testimonial__body">
+                            <blockquote>
+                                <p>"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio
+                                    dui.
+                                    Aenean eu leo quam..."
+                                </p>
+                            </blockquote>
+                            <h4 class="author">SUSAN SIMS, INTERACTION DESIGNER AT XYZ </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
     </main>
