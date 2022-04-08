@@ -316,6 +316,57 @@ body {
     transition: .5s;
 }
 
+/* =============== Team =============== */
+
+.team__container {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.team__data h3 {
+    font-size: var(--fs-biggest-sm);
+    font-weight: 400;
+    color: var(--clr-title);
+    margin: var(--m-1) 0;
+}
+
+.team__data span {
+    display: block;
+    font-size: var(--fs-body-text-sm);
+    color: var(--clr-red);
+    margin: var(--m-1) 0 var(--m-2) 0;
+}
+
+.team__social {
+    margin-top: var(--m-4);
+}
+
+.team__social ul {
+    display: flex;
+    gap: var(--m-1);
+}
+
+.team__social .social__link {
+    border: 1px solid #e8ecee;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #c6cacc;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1024px) {
     .show {
         visibility: visible !important;
